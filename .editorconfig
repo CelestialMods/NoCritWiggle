@@ -1,0 +1,41 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+tab_width = 4
+end_of_line = lf
+insert_final_newline = false
+trim_trailing_whitespace = true
+max_line_length = 120
+
+[*.c]
+charset = utf-8
+indent_brace_style = K&R
+align_after_open_bracket = true
+align_consecutive_assignments = false
+align_consecutive_declarations = false
+allow_short_blocks_on_a_single_line = false
+allow_short_functions_on_a_single_line = false
+allow_short_if_statements_on_a_single_line = false
+allow_short_loops_on_a_single_line = false
+always_break_after_return_type = none
+always_break_before_multiline_strings = false
+bin_pack_arguments = false
+bin_pack_parameters = false
+brace_wrapping_after_function = false
+break_before_binary_operators = none
+break_before_braces = K&R
+break_before_ternary_operators = true
+break_string_literals = true
+column_limit = 120
+indent_case_labels = false
+indent_size = 2
+namespace_indentation = all
+pointer_alignment = left
+reference_alignment = pointer
+space_before_assignment_operators = true
+spaces_in_container_literals = true
+spaces_before_trailing_comments = 1
+spaces_in_parens = never
+use_tab = false
