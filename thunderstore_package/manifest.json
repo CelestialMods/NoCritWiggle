@@ -1,0 +1,7 @@
+{
+    "name": "No_Crit_Wiggle",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/CelestialMods/NoCritWiggle.git",
+    "description": "Removes the crit wiggle effect on low health.",
+    "dependencies": []
+}
